@@ -1,0 +1,16 @@
+{
+  "name": "paint-backend",
+  "version": "1.0.0",
+  "description": "Backend for Paint Project (Express, MongoDB, Nodemailer)",
+  "main": "Server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "nodemailer": "^6.9.13"
+  }
+}
